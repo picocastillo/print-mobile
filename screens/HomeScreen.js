@@ -32,7 +32,7 @@ export default function HomeScreen() {
         <View style={styles.getStartedContainer}>
           <DevelopmentModeNotice />
 
-          <Text style={styles.getStartedText}>Hola ma :D</Text>
+          <Text style={styles.getStartedText}>ASDs</Text>
 
           <View
             style={[styles.codeHighlightContainer, styles.homeScreenFilename]}>
