@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { Text, View, StyleSheet } from 'react-native';
-import Home from './src/screens/container/home';
+import Home from './src/screens/containers/home';
+import Header from './src/sections/components/header';
+import TravelList from './src/travelForms/containers/travel-list';
 
 type Props = {};
 
@@ -8,8 +10,10 @@ export default class App extends Component<Props> {
   render(){
     return (
       <Home>
-        <Text>Header</Text>
-        <Text>Content</Text>
+        <Header>
+        <Text>Sprint Distribución y Logística</Text>
+        </Header>
+        <TravelList/>
         <Text>Footer</Text>
       </Home>
     )
